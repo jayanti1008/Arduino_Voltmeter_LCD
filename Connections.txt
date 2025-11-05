@@ -1,0 +1,21 @@
+Arduino Voltmeter Project - Circuit Connections
+-----------------------------------------------
+
+LCD (I2C) Connections:
+----------------------
+LCD VCC  →  Arduino 5V
+LCD GND  →  Arduino GND
+LCD SDA  →  Arduino A4
+LCD SCL  →  Arduino A5
+
+Voltage Divider Connections:
+----------------------------
+- Connect the 10kΩ resistor between the input voltage (+V) and the junction point.
+- Connect the 2.2kΩ resistor between the junction point and GND.
+- Connect the junction point to Arduino analog pin A0.
+
+Other Notes:
+------------
+- Ensure that the input voltage does not exceed 12V.
+- Adjust resistor values and scalingFactor in code if using a different voltage range.
+- Check the I2C address of your LCD (0x27 or 0x3F) and update it in the code if needed.

@@ -1,0 +1,11 @@
+Arduino Voltmeter Project - Components List
+--------------------------------------------
+
+1. Arduino Uno Board
+2. 16x2 LCD Display (with I2C module, address 0x27 or 0x3F)
+3. 10kΩ Resistor (used in voltage divider)
+4. 2.2kΩ Resistor (used in voltage divider)
+5. Breadboard
+6. Jumper Wires (male-to-male)
+7. USB Cable (for uploading code)
+8. 12V DC Power Source (input voltage to be measured)

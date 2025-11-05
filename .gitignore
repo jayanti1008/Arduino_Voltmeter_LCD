@@ -1,0 +1,22 @@
+# ======================================
+# Arduino Voltmeter Project - Git Ignore
+# ======================================
+
+# Ignore compiled Arduino files
+*.hex
+*.elf
+
+# Ignore temporary / backup files
+*.bak
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore build and cache folders (if any)
+build/
+cache/
